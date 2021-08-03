@@ -8,11 +8,12 @@ import HookCounterFx from "./components/HookCounterFx";
 import HookMouse from "./components/HookMouse";
 import MouseContainer from "./components/MouseContainer";
 import IntervalHookCounter from "./components/intervalHookCounter";
+import DataFetching from "./components/DataFetching";
 
 function App() {
   return (
     <div className="App">
-      <IntervalHookCounter />
+      <DataFetching />
     </div>
   );
 }
