@@ -9,11 +9,14 @@ import HookMouse from "./components/HookMouse";
 import MouseContainer from "./components/MouseContainer";
 import IntervalHookCounter from "./components/intervalHookCounter";
 import DataFetching from "./components/DataFetching";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <ErrorBoundary>
+        <DataFetching />
+      </ErrorBoundary>
     </div>
   );
 }
