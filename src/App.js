@@ -10,12 +10,15 @@ import MouseContainer from "./components/MouseContainer";
 import IntervalHookCounter from "./components/intervalHookCounter";
 import DataFetching from "./components/DataFetching";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ReducerCounter from "./components/ReducerCounter";
+import ReducerCounter2 from "./components/ReducerCounter2";
+import ReducerCounter3 from "./components/ReducerCounter3";
 
 function App() {
   return (
     <div className="App">
       <ErrorBoundary>
-        <DataFetching />
+        <ReducerCounter3 />
       </ErrorBoundary>
     </div>
   );
